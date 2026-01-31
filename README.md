@@ -1,21 +1,28 @@
-# SecureBank Copilot (Gemini 3)
+# SecureBank Copilot — Gemini 3 Hackathon Submission
 
-SecureBank Copilot is an AI-native application built from scratch during the Google Gemini 3 Hackathon (Dec 2025 – Feb 2026).
+SecureBank Copilot is a Google AI Studio application powered by Gemini 3 that transforms raw cybersecurity incident descriptions into board-ready decision artifacts for financial institutions.
 
-The application uses Gemini 3 as its core reasoning engine to transform raw cybersecurity incidents into executive-ready decisions, risk summaries, and control mappings.
+## Overview
+Given a security incident description, the app generates:
+- An Executive Briefing focused on business impact and decisions
+- A Technical Triage plan (P0, P1, P2 actions)
+- A Control Mapping Report across key security domains
+- A structured Risk Register entry with likelihood and impact
 
-Although inspired by general industry practices in cybersecurity governance, no source code, artifacts, or implementations were reused from prior projects.
+The goal is to bridge the gap between technical incident response and executive decision-making under time pressure.
 
 ## Built With
-- Google Gemini 3 API
-- Gemini reasoning and long-context capabilities
-- Lightweight web interface for public demo
+- Google AI Studio
+- Gemini 3
+- Prompt-based structured generation
 
-## Gemini Integration
-Gemini 3 is central to the application and is responsible for:
-- Contextual incident reasoning
-- Mapping incidents to security controls
-- Generating board-level summaries and recommendations
-- Explaining decisions transparently
+## Gemini 3 Usage
+Gemini 3 is used to analyze incident context, generate structured outputs, and maintain consistent reasoning across executive, technical, and risk-focused sections.
 
-Without Gemini 3, the application does not function.
+## Eligibility and Timing
+This submission was prepared specifically for the Gemini 3 Hackathon during the contest period.  
+Any prior cybersecurity experience was used only as domain knowledge, not reused application code or pre-existing applications.
+
+## Demo
+A short demo video showing Gemini 3 selected in Google AI Studio and generating outputs live is included in the Devpost submission.
+
